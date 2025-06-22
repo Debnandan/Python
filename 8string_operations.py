@@ -14,7 +14,9 @@ print("-"*20)
 print("hello world"[4])
 print("hello world"[-1])
 print("hello world"[:5])
+print("hello world"[::-1])  # reverse
 print("-"*20)
+
 
 # case conversion
 print("hello world".upper())
