@@ -1,60 +1,77 @@
-# concatenation
-print("hello","world")
-print("-"*20)
+# 🧵 String Operations in Python
 
-# replication
-print("hello "*5)
-print("-"*20)
+# 🔗 Concatenation
+print("Concatenation ------------------")
+print("hello", "world")         # Prints with space between
+print("-" * 20)
 
-# length
-print(len("hello "))
-print("-"*20)
+# 🔁 Replication
+print("Replication ------------------")
+print("hello " * 5)             # Repeats the string 5 times
+print("-" * 20)
 
-# slicing
-print("hello world"[4])
-print("hello world"[-1])
-print("hello world"[:5])
-print("hello world"[::-1])  # reverse
-print("-"*20)
+# 📏 Length
+print("Length ------------------")
+print(len("hello "))            # Counts characters including space
+print("-" * 20)
 
+# ✂️ Slicing
+print("Slicing ------------------")
+print("hello world"[4])         # Character at index 4 → 'o'
+print("hello world"[-1])        # Last character → 'd'
+print("hello world"[:5])        # First 5 characters → 'hello'
+print("hello world"[::-1])      # Reversed string
+print("-" * 20)
 
-# case conversion
-print("hello world".upper())
-print("hello WORLD".lower())
-print("-"*20)
+# 🔠 Case Conversion
+print("Case Conversion ------------------")
+print("hello world".upper())    # All uppercase
+print("hello WORLD".lower())    # All lowercase
+print("-" * 20)
 
-# stripping
-print("      hello       ".strip())
-print("-"*20)
+# 🧼 Stripping Whitespace
+print("Stripping ------------------")
+print("      hello       ".strip())  # Removes leading/trailing spaces
+print("-" * 20)
 
-# replacing
-print("potato".replace('o','*'))
-print("-"*20)
+# 🔄 Replacing Characters
+print("Replacing ------------------")
+print("potato".replace('o', '*'))    # Replaces all 'o' with '*'
+print("-" * 20)
 
-# count
-print("DebnandaN".count('n'))
-print("DebnandaN".count('N'))
-print("DebnandaN".lower().count('n')) # to count total number of n present in the string
-print("-"*20)
+# 🔢 Counting Characters
+print("Counting ------------------")
+print("DebnandaN".count('n'))        # Counts lowercase 'n'
+print("DebnandaN".count('N'))        # Counts uppercase 'N'
+print("DebnandaN".lower().count('n'))# Counts all 'n' after lowering case
+print("-" * 20)
 
-# check
-print("hello".isalpha())
-print("1234".isdigit())
-print("hello".islower())
-print("HELLO".isupper())
-print("-"*20)
+# ✅ String Checks
+print("Checks ------------------")
+print("hello".isalpha())        # True: all alphabetic
+print("1234".isdigit())         # True: all digits
+print("hello".islower())        # True: all lowercase
+print("HELLO".isupper())        # True: all uppercase
+print("-" * 20)
 
-# capitalisation
-print("hello world".capitalize())
-print("hello world".title())
-print("-"*20)
+# 🧢 Capitalization
+print("Capitalization ------------------")
+print("hello world".capitalize())    # First letter capitalized
+print("hello world".title())         # Each word capitalized
+print("-" * 20)
 
-# check for start and end
-print("hello world".startswith("hel"))
-print("hello world".endswith("ld"))
-print("-"*20)
+# 🔍 Start/End Checks
+print("Start/End Checks ------------------")
+print("hello world".startswith("hel"))  # True
+print("hello world".endswith("ld"))     # True
+print("-" * 20)
 
-# making a string to the fixed length
-print("hello world".center(20,"*"))
-print("hello world".ljust(20,"*"))
-print("hello world".rjust(20,"*"))
+# 📐 Fixed-Length Formatting
+print("Fixed-Length Formatting ------------------")
+print("hello world".center(20, "*"))    # Centered with '*'
+print("hello world".ljust(20, "*"))     # Left-justified with '*'
+print("hello world".rjust(20, "*"))     # Right-justified with '*'
+
+#    ****hello world*****
+#    hello world*********
+#    *********hello world 
