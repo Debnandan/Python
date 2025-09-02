@@ -42,10 +42,26 @@ print('- -' * 20)
 print("Looping through keys:")
 for k in dct.keys():
     print(k, dct[k])
+print('- -' * 20) 
 
 # 🔄 Looping Through Items (key-value pairs)
 print("Items:", dct.items())
 print("Looping through items:")
-for k, v in dct.items():
+for k, v in dct.items():          # key,value
     print(k, v)
-print('- -' * 20)
+print('- -' * 20) 
+
+# 🔍 Key Presence
+print(dct)
+print(1 in dct)     # True: integer key exists
+print('1' in dct)   # False: string key doesn't
+print('- -' * 20) 
+
+# 🔄 Update with Another Dictionary
+
+# Original dictionaries
+dct1 = {1: 'a', 2: 'b', 3: 'c', 5: 'e'}
+dct2 = {1: 'A', 2: 'B', 3: 'C', 4: 'D'}
+dct1.update(dct2)               # Update dct1 with dct2
+print("Updated dct1:", dct1)    # ✅ Result: matching keys are overwritten, new keys are added
+                                # Output: {1: 'A', 2: 'B', 3: 'C', 5: 'e', 4: 'D'}
