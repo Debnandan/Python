@@ -1,0 +1,14 @@
+'''
+-------------------------SIMPLE IF PROBLEMS-------------------------
+
+1-> write a program to print square of a number if the number is even.
+2-> WAP to check whether the character is vowel.
+3-> WAP to print ASCII value of a character only if its in Uppercase.
+4-> WAP to print cube if the given number is of 3 digit.
+5-> WAP to print cube of a number only if it is divisible by 9 or 6.
+6-> WAP to check whether last digit of a number is 5 or not.
+7-> WAP to check whether the data is float
+8-> WAP to check the given data is of single value data type.
+9-> WAP to check whether the givenn character is digit or not.
+10-> WAP to check whether the given int is multiple of 3.
+'''
