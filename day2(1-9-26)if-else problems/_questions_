@@ -1,0 +1,10 @@
+-----------------------------IF-ELSE PROBLEMS-----------------------------
+1-> WAP to print square if a number is even and print cube if number is odd.
+2-> WAP to check whether the data is mutable or not.
+3-> WAP to check whether the given character is digitor not.
+4-> WAP to check whether the given char is special or not.
+5-> WAP to check whether a list is consistof midlle value or not.
+6-> WAP to check whether 2 values are pointing towards to same memory or not.
+7-> Considera tuple of length 2 and check whether the tuple is homogeneous.
+8-> WAP to check whether the given string is palindrome.
+9-> WAP to check whether the given number is positive or negative.
