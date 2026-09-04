@@ -1,0 +1,13 @@
+-------------------------ELIF PROBLEMS
+1-> WAP to check Whether the char is Uppercase, Lowercase, Digit and Special Character.
+2-> WAP to check whether the given integer is single digit, double digit, triple digit 
+    or more than that.
+3-> WAP to check the given points are lying in which quadrant.
+4-> WAP to check greatest of 3 numbers.
+5-> WAP to check smallest of 3 numbers.
+6-> WAP to check the realtion between 2 integer number.
+7-> Consider char input if it is in Uppercase convert it into Lowercase, if it is in lowercase
+    convert it into uppercase, if it is in digit print the reminder after divided by 3, if it
+    is in special character print its ASCII value.
+8-> WAP to print 'fizz' if the number is multiple of 3 and print 'buzz' if the given number 
+    is multiple of 5 abd 'fizzbuzz' if the number is multiple of 3 and 5..
